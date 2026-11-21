@@ -98,12 +98,14 @@ Gradio가 표시하는 출처는 **모델에 실제로 전달한 검색 근거**
 RAG_Workshop/
 ├── README.md
 ├── README.en.md
+├── index.html
+├── .nojekyll
 ├── 세종실록_RAG_발표자료.html
 ├── 세종실록_RAG_7단계_실습.ipynb
 └── sejong_xml.zip
 ```
 
-위 다섯 파일을 저장소 최상위에 배치하는 구성입니다. `Source/`, `references/`, `benchmark/`는 자료 제작·검증용 보조 폴더로, 참가자의 기본 실습에는 필요하지 않습니다. `references/`의 제작 스크립트에는 제작 환경의 로컬 경로가 포함되어 있어 재빌드하려면 환경에 맞게 수정해야 합니다.
+기본 자료와 웹 공개용 파일을 저장소 최상위에 배치합니다. `index.html`은 발표자료로 연결하고, `.nojekyll`은 정적 파일을 그대로 배포하도록 설정합니다. `Source/`, `references/`, `benchmark/`는 자료 제작·검증용 보조 폴더로, 참가자의 기본 실습에는 필요하지 않습니다. `references/`의 제작 스크립트에는 제작 환경의 로컬 경로가 포함되어 있어 재빌드하려면 환경에 맞게 수정해야 합니다.
 
 ## 제작 및 관련 자료
 

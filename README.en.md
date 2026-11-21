@@ -100,12 +100,14 @@ Improvement can involve source data, chunking, embeddings, query rules, indexing
 RAG_Workshop/
 ├── README.md
 ├── README.en.md
+├── index.html
+├── .nojekyll
 ├── 세종실록_RAG_발표자료.html
 ├── 세종실록_RAG_7단계_실습.ipynb
 └── sejong_xml.zip
 ```
 
-This layout places the five files at the repository root. `Source/`, `references/`, and `benchmark/` are supplementary authoring and validation folders; participants do not need them for the base exercise. Authoring scripts in `references/` contain local paths from the production environment and require adjustment before rebuilding elsewhere.
+Workshop materials and web entry files are placed at the repository root. `index.html` opens the presentation, and `.nojekyll` enables publishing the static files without Jekyll processing. `Source/`, `references/`, and `benchmark/` are supplementary authoring and validation folders; participants do not need them for the base exercise. Authoring scripts in `references/` contain local paths from the production environment and require adjustment before rebuilding elsewhere.
 
 ## Author and related resources
 
