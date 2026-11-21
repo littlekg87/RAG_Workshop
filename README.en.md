@@ -14,11 +14,12 @@ The emphasis is on **designing a system around its data**. Understanding histori
 
 | Material | Contents |
 | --- | --- |
-| [HTML presentation](세종실록_RAG_발표자료.html) | 76 slides combining theory, exercises, and interactive diagrams |
+| [View the presentation online](https://littlekg87.github.io/RAG_Workshop/) | 76 interactive slides; no download or installation required |
+| [Download the HTML](https://github.com/littlekg87/RAG_Workshop/raw/refs/heads/main/세종실록_RAG_발표자료.html) | A single HTML file for offline presentations |
 | [Colab notebook](세종실록_RAG_7단계_실습.ipynb) | Seven stages with Korean explanations and code comments |
 | [Download the XML ZIP](https://github.com/littlekg87/RAG_Workshop/raw/refs/heads/main/sejong_xml.zip) | 33 chronological XML files used in the exercises |
 
-**Download the HTML file and open it in a browser.** GitHub's file viewer does not run the presentation. Fonts, figures, and demonstration data are embedded in the HTML; no web server is required. Keep the HTML, notebook, and ZIP in the same folder to use the presentation's local download links.
+**[Open the presentation in your browser](https://littlekg87.github.io/RAG_Workshop/).** For offline use, download the HTML file and open it locally. Fonts, figures, and demonstration data are embedded in the HTML; no web server is required. Keep the HTML, notebook, and ZIP in the same folder to use the presentation's local download links.
 
 ## Setup and execution
 

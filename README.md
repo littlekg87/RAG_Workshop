@@ -12,11 +12,12 @@
 
 | 자료 | 내용 |
 | --- | --- |
-| [HTML 발표자료](세종실록_RAG_발표자료.html) | 이론·실습·시각화가 연결된 76장 슬라이드 |
+| [브라우저에서 발표자료 보기](https://littlekg87.github.io/RAG_Workshop/) | 설치·다운로드 없이 보는 76장 인터랙티브 슬라이드 |
+| [HTML 파일 다운로드](https://github.com/littlekg87/RAG_Workshop/raw/refs/heads/main/세종실록_RAG_발표자료.html) | 오프라인 발표용 단일 HTML 파일 |
 | [Colab 실습 노트북](세종실록_RAG_7단계_실습.ipynb) | 한국어 설명과 주석이 포함된 7단계 실습 |
 | [세종실록 XML ZIP 다운로드](https://github.com/littlekg87/RAG_Workshop/raw/refs/heads/main/sejong_xml.zip) | 실습에 사용하는 연대기 XML 33개 |
 
-발표자료는 HTML 파일을 **다운로드한 뒤 브라우저에서 열어주세요.** GitHub의 파일 보기 화면에서는 슬라이드가 실행되지 않습니다. HTML에는 글꼴·그림·시연 데이터가 포함되어 있어 별도 웹 서버 없이 열 수 있습니다. 발표자료에서 노트북과 ZIP을 내려받는 링크도 사용하려면 세 파일을 같은 폴더에 두세요.
+발표자료는 **[브라우저에서 바로 볼 수 있습니다](https://littlekg87.github.io/RAG_Workshop/)**. 오프라인에서는 HTML 파일을 다운로드한 뒤 브라우저에서 열어주세요. HTML에는 글꼴·그림·시연 데이터가 포함되어 있어 별도 웹 서버 없이 열 수 있습니다. 발표자료에서 노트북과 ZIP을 내려받는 링크도 사용하려면 세 파일을 같은 폴더에 두세요.
 
 ## 준비와 실행
 
