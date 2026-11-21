@@ -93,30 +93,6 @@ The sources displayed by Gradio are **the retrieved evidence actually passed to 
 
 Improvement can involve source data, chunking, embeddings, query rules, indexing and retrieval, evidence assembly, and the generator. Changes to one stage also affect the inputs and limitations of other stages.
 
-## FAQ
-
-### Why does the embedding progress bar show `1161`?
-
-It counts **batches**, not chunks. With 37,126 chunks and batch size 32, `ceil(37126 / 32) = 1161`; the final batch contains six chunks. A batch size of 32 is a starting compromise between throughput and memory, not a universal optimum.
-
-### How do I fix `ModuleNotFoundError: No module named 'faiss'`?
-
-FAISS is missing from the current runtime. Run this in a new cell, then rerun cell 3-3 after it succeeds:
-
-```python
-%pip install -q faiss-cpu
-import faiss
-print("FAISS is ready")
-```
-
-The installation name is `faiss-cpu`; the import name is `faiss`. If the runtime and its previous variables/files are still available, chunking and embedding do not need to be repeated.
-
-### What if GPU memory is insufficient or installation fails?
-
-For an out-of-memory error during embedding, try reducing `batch_size=32` to `16`. This changes how many chunks are processed together, not the length of each chunk. For installation failures, inspect the error printed by cell 1-1. Restart only if Colab requests it, then rerun the required cells starting from 1-2.
-
-Gradio creates a temporary public share link that others with the link can access. Models continue running in your Colab session; the interface stops working when that runtime ends.
-
 ## File layout
 
 ```text
